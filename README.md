@@ -4,6 +4,16 @@ This repository is a reproduction and modification of the [Trustworthy Machine L
 
 This is a repository to reproduce CLIP-dissect and try to further analyze its functionality, specifically its activating images k. 
 
+To analyze rank stability in a way that is meaningful, you should compare the entire ordered list of top-5 activations to the first 5 in the top-10, and similarly compare the first 5 in the top-10 to the first 5 in the top-16. This way, you're checking if any new labels have emerged in the higher ranked positions that were not present in the smaller set. In this updated version, you compare the set of top-5 labels from the top-5 activations to the first 5 labels from the top-10 and top-16 activations, which allows you to observe if any labels have been replaced by others as k increases, indicating a change in the neuron's preference ranking for different concepts.
+
+### Hardware Set up
+
+CPU: i5-13400F (16CPU), ~ 2.5GHz
+
+RAM: 16GB
+
+GPU: GTX3050
+
 ## Setup
 
 ### Prerequisites
