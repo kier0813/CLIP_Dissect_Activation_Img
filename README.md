@@ -1,4 +1,4 @@
-# CLIP-dissect Reproduction and Activation Img
+# CLIP-dissect Reproduction and Activation Image
 
 This repository is a reproduction and modification of the [Trustworthy Machine Learning Lab's CLIP-dissect](https://github.com/Trustworthy-ML-Lab/CLIP-dissect). The primary modification is in the activation image part of the project.
 
