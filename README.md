@@ -38,7 +38,7 @@ Download the Broden dataset (images only):
   bash dlbroden.sh
   ```
 
-Furthermore, the saved_activation uploaded here does not contain all the activaations from the model. Reproducer should first install all the prerequisites as described above, and run CLIP_Dissect_Activation.ipynb in the same directory as CLIP-dissect(the code is commented out). Initial run will take longer due to saving activations for each layers, which is total of aroun 900mb. 
+Furthermore, the saved_activation uploaded here does not contain all the activations from the model. Reproducer should first install all the prerequisites as described above, and run CLIP_Dissect_Activation.ipynb in the same directory as CLIP-dissect(the code is commented out). Initial run will take longer due to saving activations for each layers, which is total of aroun 900mb. 
 
 ## Citations
 
