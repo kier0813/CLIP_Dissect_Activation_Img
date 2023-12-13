@@ -33,6 +33,13 @@ To install the necessary Python dependencies, run the following command:
   pip install -r requirements.txt
   ```
 
+Furthermore, you can install my conda environment with the environment.yml file.
+
+  ```bash
+  cat environment.yml
+  ```
+
+
 Download the Broden dataset (images only):
   ```bash
   bash dlbroden.sh
