@@ -1,0 +1,12 @@
+name: dsc180
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - torchaudio==0.12.1
+  - torchvision==0.13.1
+  - pytorch==1.12.1
+  - packaging
+  - ipykernel
+  - pyqt
+prefix: C:\Users\kier0\anaconda3\envs\dsc180
